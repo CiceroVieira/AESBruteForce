@@ -1,6 +1,7 @@
 /* Ataque forca bruta AES */
 /* Autores: Mauricio Ize, Airton Depauli */
 /* Texto criptografado esta na linha 97. Cada numero item do vetor eh um caractere Windows-1252 */
+/* gcc -o bruteF bruteForce.c -L /usr/local/opt/openssl/lib -lcrypto */
 
 #include <stdio.h>
 #include <stdlib.h>
